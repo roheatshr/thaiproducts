@@ -8,6 +8,10 @@ class ProductDetails extends StatefulWidget {
 class _ProductDetailsState extends State<ProductDetails> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+        // home: Scaffold(
+        //   appBar: AppBar(),
+        // ),
+        );
   }
 }

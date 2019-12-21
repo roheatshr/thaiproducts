@@ -43,22 +43,22 @@ class _HomepageState extends State<Homepage> {
           body: NavigationBtm(),
 
           //sidebar navigation
-          drawer: Drawer(
-            child: ListView(
-              children: <Widget>[
-                UserAccountsDrawerHeader(
-                  accountName: Text('Rohit Shrestha'),
-                  accountEmail: Text('@gmail.com'),
-                  currentAccountPicture: GestureDetector(
-                    child: CircleAvatar(
-                      backgroundColor: Colors.grey,
-                      child: Icon(Icons.person),
-                    ),
-                  ),
-                )
-              ],
-            ),
-          ),
+          // drawer: Drawer(
+          //   child: ListView(
+          //     children: <Widget>[
+          //       UserAccountsDrawerHeader(
+          //         accountName: Text('Rohit Shrestha'),
+          //         accountEmail: Text('@gmail.com'),
+          //         currentAccountPicture: GestureDetector(
+          //           child: CircleAvatar(
+          //             backgroundColor: Colors.grey,
+          //             child: Icon(Icons.person),
+          //           ),
+          //         ),
+          //       )
+          //     ],
+          //   ),
+          // ),
         ));
   }
 }
